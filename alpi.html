@@ -1,35 +1,95 @@
-<DOCTYPE html>
-<html lang="eng">
-	<head>
-	<!-- Mete tag, per la grandezza della pagina rispetto alla grandezza del dispositivo su cui stiamo guardando-->
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" contant="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title> Irigem Template</title>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+	
+    <title>index.html</title>
 
-	<!-- File Bootstrap, ossia l'aspetto grafico del sito in generale-->
-	<!--BootStrap-->
-		<link href="css/vendor/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap core CSS -->
+    <link href="css/vendor/bootstrap.min.css" rel="stylesheet">
 
-	<!--Supporto per IE8 e anche per elementi del HTML 5 e vari media-->
-	<!--Attenzione il file Respond.js se accediamo via file://-->
-	<!--se se vuole usare anche su IE 9
-	 <script src="js/vendor/html5shiv-3.7.2.min.js"-->
-
-		<link href="css/custom.css" rel="stylesheet">
-	</head>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	
+	<!-- Custom CSS -->
+    <link href="css/custom.css" rel="stylesheet">
+</head>
 	<body>
-		<p><h1> Le Alpi </h1></p>
-			<p> Le <b> Alpi </b> sono la catena montuosa più importante d’Europa. Si chiamano in francese Alpes, in tedesco Alpen, in sloveno Alpe. Sesto Pompeo Festo nel suo Primo Libro attesta che il nome deriva da ALBUS (bianco) che i Sabini pronunciavano Alpus e indicava il colore sempre bianco della catena innevata anche durante la stagione estiva.  </p>
-			<p> Per convenzione le Alpi iniziano a ovest del Colle di Cadibona, anche se in realtà il confine geologico è posto nei pressi di Genova ed è costituito dal Gruppo di Voltri, terminano a ovest della città di <a href="http://www.vienna.it"> Vienna </a> , coprendo una distanza di circa 1.300 km a forma di arco tra l’Italia Settentrionale, la Francia sud-orientale, la Svizzera, il Liechtenstein, l’Austria, il sud della Germania, la Slovenia e l’Ungheria occidentale. Tra Verona e Monaco di Baviera raggiungono la larghezza massima. </p>
-				<img src="images/alpi.jpg"><br>Le Alpi viste dallo spazio, maggio 2002 
-			<p><a href="index.html"> Torna alla pagina principale </a></p>	
-	<!--JQuery, necessario per il Bootstrap plugins-->
-
-		<script src="js/vendor/jquery-1.11.3.min.js"></script>
-
-	<!--Include tutti i plugin compilati o includono i file singoli di cui abbiamo bisogno-->
-
-		<scrypt src="js/vendor/bootstrap.min.js"></scrypt>
+		<div id="wrapper"> 
+		<header>
+			<div class="container">
+			<nav class="navbar navbar-default">
+				<div class="container-fluid">
+					<div class="navbar-header">
+						<a class="navbar-brand" href="index.html">
+						Piemonte
+						</a>
+					</div>
+						<ul class="nav navbar-nav">
+						<li><a href="alpi.html">alpi</a></li>
+						<li><a href="lago-maggiore.html">lago maggiore</a></li>
+						<li><a href="novara.html">novara</a></li>
+						<li><a href="novara1.html">monumenti e luoghi di interesse</a></li>
+						<li><a href="novara2.html">centro storico</a></li>
+						<li><a href="novara3.html">architetture civili</a></li>						
+					</ul>
+				</div>
+			</nav>
+			</div>
+		</header>
+			
+			<div id="container" class="container-fluid">
+				<div class="row">
+				<div class="col-md-3">
+					
+				</div>
+					<div id="main" class="col-md-8">
+		<section>
+			<h1>Piemonte</h1>
+			
+			<div class="row">
+				<div class="col-md-4">
+					<img src="">
+				</div>
+				<div class="col-md-8">
+					
+			
+			
+			<p>Le <strong>Alpi</strong> sono la catena montuosa più importante d’Europa. Si chiamano in francese <em>Alpes</em>, in tedesco <em>Alpen</em>,
+			in sloveno <em>Alpe</em>. Sesto Pompeo Festo nel suo <em>Primo Libro</em> attesta che il nome deriva da <em>ALBUS</em> (bianco) che
+			i Sabini pronunciavano <em>Alpus</em> e indicava il colore sempre bianco della catena innevata anche durante la
+			stagione estiva.<p>
+			<p>Per convenzione le Alpi iniziano a ovest del Colle di Cadibona, anche se in realtà il confine geologico è
+			posto nei pressi di Genova ed è costituito dal Gruppo di Voltri, terminano a ovest della città di <a href="http://www.vienna.it">Vienna</a>,
+			coprendo una distanza di circa 1.300 km a forma di arco tra l’Italia Settentrionale, la Francia sud-orientale,
+			la Svizzera, il Liechtenstein, l’Austria, il sud della Germania, la Slovenia e l’Ungheria occidentale. Tra
+			Verona e Monaco di Baviera raggiungono la larghezza massima.</p>
+			<img src="images/alpi.jpg ">
+			<p><a href="index.html">Torna alla pagina principale</a></p>
+		</section>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- /.container -->
+		<!-- Bootstrap core JavaScript
+		================================================== -->
+		<!-- Placed at the end of the document so the pages load faster -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+		<script src="../../dist/js/bootstrap.min.js"></script>
+		<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+		<script src="../../assets/js/ie10-viewport-bug-workaround.js">ciao</script>
+	<footer>
+	</footer>
 	</body>
 </html>
